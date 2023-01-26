@@ -27,13 +27,13 @@ public class ArrayTests {
   @Test
   public void testAverageWithoutLowest() {
     double[] testerArray = {1, 2, 3, 4};
-    assertEquals(3.0, ArrayExamples.averageWithoutLowest(testerArray), 0.001);
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(testerArray), 0.00000001);
 
     double[] testerArray2 = {1,1,1,1};
-    assertEquals(1.0, ArrayExamples.averageWithoutLowest(testerArray2), 0.001);
+    assertEquals(1.0, ArrayExamples.averageWithoutLowest(testerArray2), 0.0000001);
   
     double[] testerArray3 = {3,2,1,2,3};
-    assertEquals(2.5, ArrayExamples.averageWithoutLowest(testerArray3), 0.001);
+    assertEquals(2.5, ArrayExamples.averageWithoutLowest(testerArray3), 0.0000001);
   
   }
 }
